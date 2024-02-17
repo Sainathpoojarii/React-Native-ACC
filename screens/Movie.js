@@ -5,10 +5,10 @@ import { StatusBar, TouchableOpacity } from 'react-native'
 import { Bars3CenterLeftIcon, MagnifyingGlassIcon, ShoppingCartIcon } from 'react-native-heroicons/outline'
 import { styles } from '../theme';
 import { ScrollView } from 'react-native'
+import TrendingMovies from '../components/trendingMovies'
 import { useNavigation } from '@react-navigation/native'
-import MainPage from '../components/mainPage'
 
-export default function Home() {
+export default function Movie() {
 
   const [trending, setTrending] = useState([])
   const navigation = useNavigation();
@@ -35,7 +35,7 @@ export default function Home() {
         </View>
       </SafeAreaView>
       <SafeAreaView className="flex-row justify-between items-center mx-2 mt-3">
-        <TouchableOpacity>
+        <TouchableOpacity onPress={()=>navigation.navigate('Home')}  >
           <Text className="text-white text-xl font-bold">
             Home
           </Text>
@@ -45,8 +45,8 @@ export default function Home() {
             Originals
           </Text>
         </TouchableOpacity>
-        <TouchableOpacity onPress={()=>navigation.navigate('Movie')}>
-          <Text  className="text-white text-xl font-bold">
+        <TouchableOpacity>
+          <Text className="text-white text-xl font-bold">
             Movies
           </Text>
         </TouchableOpacity>
@@ -65,7 +65,7 @@ export default function Home() {
         showVerticalScrollIndicator={false}
         contentContainerStyles={{ paddingBottom: 10 }}
       >
-      <MainPage/>
+        <TrendingMovies data={trending} />
       </ScrollView>
     </View>
   )
