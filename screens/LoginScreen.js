@@ -64,7 +64,7 @@ export default function LoginScreen() {
 
           <Animated.View entering={FadeInDown.delay(1600).duration(1000).springify()} className="w-full">
             <TouchableOpacity className=" w-full bg-rose-700 p-3 rounded-2xl mb-3 ">
-              <Text onPress={()=>navigation.navigate('Home')} className=" text-xl font-bold text-white text-center">Login</Text>
+              <Text onPress={()=>navigation.navigate('Movie')} className=" text-xl font-bold text-white text-center">Login</Text>
             </TouchableOpacity>
           </Animated.View>
          

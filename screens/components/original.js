@@ -1,10 +1,10 @@
 import { View, Text } from 'react-native'
 import React from 'react'
 
-export default function MainPage() {
+export default function Original() {
   return (
     <View>
-      <Text>Mainpage 11</Text>
+      <Text>Original</Text>
     </View>
   )
 }

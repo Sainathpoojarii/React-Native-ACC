@@ -6,7 +6,7 @@ import { Bars3CenterLeftIcon, MagnifyingGlassIcon, ShoppingCartIcon } from 'reac
 import { styles } from '../theme';
 import { ScrollView } from 'react-native'
 import { useNavigation } from '@react-navigation/native'
-import MainPage from '../components/mainPage'
+import MainPage from './components/mainPage'
 
 export default function Home() {
 
@@ -61,10 +61,7 @@ export default function Home() {
           </Text>
         </TouchableOpacity>
       </SafeAreaView>
-      <ScrollView
-        showVerticalScrollIndicator={false}
-        contentContainerStyles={{ paddingBottom: 10 }}
-      >
+      <ScrollView showVerticalScrollIndicator={false} contentContainerStyles={{ paddingBottom: 10 }}>
       <MainPage/>
       </ScrollView>
     </View>
