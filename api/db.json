@@ -1,6 +1,8 @@
-{"BannerData":[{ "image_url": "https://images.wallpapersden.com/image/download/poster-of-dune-2020_bGhmbGmUmZqaraWkpJRobWllrWdma2U.jpg", "name": "Dune", "content_id": "1001", "aspect_ratio": "16x9", "is_avod": true, "is_tvod": false, "is_svod": false },
+[
+{ "image_url": "https://images.wallpapersden.com/image/download/poster-of-dune-2020_bGhmbGmUmZqaraWkpJRobWllrWdma2U.jpg", "name": "Dune", "content_id": "1001", "aspect_ratio": "16x9", "is_avod": true, "is_tvod": false, "is_svod": false },
  { "image_url": "https://secretsofthesire.com/wp-content/uploads/2018/01/logan-fb-poster-16x9.jpg", "name": "Logan", "content_id": "1002", "aspect_ratio": "16x9", "is_avod": true, "is_tvod": false, "is_svod": false, "duration": "180", "is_resume": true, "watched_duration": "100" }, 
  { "image_url": "https://wallpaperaccess.com/full/1103973.jpg", "name": "Pirates of the Caribbean", "content_id": "1001", "aspect_ratio": "16x9", "is_avod": true, "is_tvod": false, "is_svod": false },
   { "image_url": "https://wallpaper-mania.com/wp-content/uploads/2018/09/High_resolution_wallpaper_background_ID_77701154125.jpg", "name": "Avatar", "content_id": "1001", "aspect_ratio": "16x9", "is_avod": true, "is_tvod": false, "is_svod": false }, 
   { "image_url": "https://i.ytimg.com/vi/aF2k0sNealY/maxresdefault.jpg", "name": "Justice League", "content_id": "1002", "aspect_ratio": "16x9", "is_avod": true, "is_tvod": false, "is_svod": false }, 
-  { "image_url": "https://images8.alphacoders.com/119/1199744.jpg", "name": "Hawkeye", "content_id": "1001", "aspect_ratio": "16x9", "is_avod": true, "is_tvod": false, "is_svod": false }]}
+  { "image_url": "https://images8.alphacoders.com/119/1199744.jpg", "name": "Hawkeye", "content_id": "1001", "aspect_ratio": "16x9", "is_avod": true, "is_tvod": false, "is_svod": false }
+  ]

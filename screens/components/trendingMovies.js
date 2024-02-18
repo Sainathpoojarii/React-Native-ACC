@@ -28,7 +28,7 @@ export default function TrendingMovies({ data }) {
 const MovieCard = ({ item, handleClick }) => {
   return (
     <TouchableWithoutFeedback onPress={handleClick}>
-      <Image source={require('../../assets/images/6.png')}
+      <Image source={{uri:'https://secretsofthesire.com/wp-content/uploads/2018/01/logan-fb-poster-16x9.jpg'}}
         style={{
           width: width*0.6,
           height: height*0.4

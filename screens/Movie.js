@@ -20,14 +20,6 @@ export default function Movie() {
   const[data,setData]=useState([])
   const navigation = useNavigation();
 
-  const URL ="https://mocki.io/v1/783f8c69-af91-45ff-87df-e675c3f11fef"
-  useEffect(()=>{
-    fetch(URL).then((response)=>response.json())
-    .then((json)=>setData(json.content_list))
-    .catch((error)=>alert(error))
-    .finally(setLoading(false));
-  })
-
 
   return (
     <View className=" flex-1 bg-rose-700 ">

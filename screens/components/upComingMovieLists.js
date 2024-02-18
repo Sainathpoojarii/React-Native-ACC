@@ -7,7 +7,7 @@ import { useNavigation } from '@react-navigation/native'
 
 export default function UpComingMovieLists({ title, data }) {
   var{width,height}=Dimensions.get('window')
-  let movieName = 'Jeene Nahi Dunga'
+  let movieName = 'Loki'
   const navigation = useNavigation();
   return (
     <View className="mb-8 space-y-4">
@@ -28,7 +28,7 @@ export default function UpComingMovieLists({ title, data }) {
               <TouchableWithoutFeedback key={index} onPress={() => ('Movielists', item)}>
                 <View className="space-y-1 mr-4" >
                   <Image
-                  className="rounded-3xl" style={{width:width*0.33,height:height*0.22}} source={require('../../assets/images/6.png')} />
+                  className="rounded-3xl" style={{width:width*0.33,height:height*0.22}} source={{uri:'https://i.pinimg.com/originals/3f/ed/e7/3fede7a0d6241e22bfed64177a08b4c8.jpg'}} />
                 <Text className="text-white ml-1 ">{movieName.length>16?movieName.slice(0,14)+'...':movieName}</Text>
                 </View>
               </TouchableWithoutFeedback>
